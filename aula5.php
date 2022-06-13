@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Formulario</title>
-        <meta
+        <meta charset="UTF-8">  
     </head>
     <body>
         <form action="" method="POST">
