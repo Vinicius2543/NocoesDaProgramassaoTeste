@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Pagina Principal</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
     <nav class="navbar bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" style = "color:white">Página Principal</a>
+        <a href="bootstrap.php" class="navbar-brand" style = "color:white">Página Principal</a>
+        <a href="funcionarios.php" class="navbar-brand" style = "color:white">Funcionarios</a>
         <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
     </div>
     </nav>
@@ -21,12 +22,13 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="GTR.png" class="d-block w-100" alt="...">
+      <img src="Bugatti.png" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>GTR Á VENDA!</h5>
+        <h5>Bugatti Á VENDA!</h5>
         <p>Por apenas R$550.000,00 leve esse BELISSIMO GTR PRETO</p>
       </div>
     </div>
@@ -38,10 +40,17 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="Camaro.png" class="d-block w-100" alt="...">
+      <img src="Camaro.PNG" class="d-block w-100" height="700px" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>VENDO CAMARO</h5>
         <p>POR APENAS R$150.000,00</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Porshe.png" class="d-block" width="100%" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>VENDO Porsche</h5>
+        <p>POR APENAS R$750.000,00</p>
       </div>
     </div>
   </div>
