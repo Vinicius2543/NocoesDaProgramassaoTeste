@@ -47,7 +47,6 @@
           //exibir dados da tabela
           return $resultado_comando;
         }
-        $funcionarios = selectFuncionarios();
 
         function deletar($id){
           $conexao = conexao();
@@ -58,7 +57,9 @@
               echo"Deu erro, funcionario não foi apagado";
             }
         }
-          
+
+        $funcionarios = selectFuncionarios();
+        
         ?>
         <table class="table table-hover">
             
@@ -85,7 +86,7 @@
                 echo "<td>";
                     echo"<form action='editarFuncionarios.php?id=$indice[id]' method='POST'>";
                       echo"<button class='btn btn-info'>Editar</button>";
-                    echo"</form>"
+                    echo"</form>";
                     echo"<form action ='funcionarios.php?id=$indice[id]' method='POST'>";
                         echo "<button type='submit' class='btn btn-danger'>Remover</button>";
                     echo"</form>";
